@@ -28,3 +28,10 @@ cd install-t*/
 #usar el comando date para optimiar la linea de arriba
 
 perl ./install-tl --no-interaction --texdir $PWD
+
+#Instalar physics
+export PATH=$PWD/bin/x86_64-linux:$PATH
+which tlmgr
+tlmgr install physics
+
+
